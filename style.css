@@ -1,0 +1,108 @@
+*{
+				padding: 0;
+				margin: 0;
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+		url("forest.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	
+}
+.nav{
+				height: auto;
+				width: 100vw;
+				padding-top: 20px;
+				padding-bottom: 50px;
+}
+.nav ul{
+				display: flex;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+
+}
+.nav ul li{
+				list-style-type: none;
+				float: left;
+				margin: 10px;
+}
+.nav ul li a{
+				text-decoration: none;
+				color: white;
+}
+.cards{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+.cards ul{
+	padding: 10px 15px;
+	margin: 10;
+	text-decoration: none;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+	border-radius: 10px;
+	
+}
+.cards ul h1{
+	color: white;
+	font-size:25px;
+	
+}
+.cards ul p{
+				font-size:18px;
+				text-align: center;
+}
+
+footer{
+				position: absolute;
+				height: auto;
+				width: 100vw;
+				padding-top: 20px;
+				background: black;
+				bottom: 0;
+}
+.footer-content{
+				display: flex;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+}
+.footer-content h3{
+				text-align: center;
+				
+}
+.footer-content ul{
+				
+}
+.footer-content ul li{
+				list-style-type: none;
+				float: left;
+				margin: 5px;
+}
+.footer-content ul li a{
+				text-decoration: none;
+
+}
+.footer-bottom {
+				text-align: center;
+				padding-bottom: 20px;
+}
+.footer-bottom p{
+				font-size: 12px;
+}
+.footer-bottom span{
+				opacity: .4;
+}
