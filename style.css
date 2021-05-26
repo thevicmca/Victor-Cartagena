@@ -106,3 +106,30 @@ footer{
 .footer-bottom span{
 				opacity: .4;
 }
+.icon-facebook2{
+				background: #3b5998;
+				color: white;
+				border-bottom: 5px;
+				border-radius: 15px;
+}
+.icon-whatsapp{
+				background: #00bb2d;
+				color: white;
+				border-radius: 40px;
+				
+}
+.icon-instagram{
+				background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+				color: white;
+				border-radius: 5px;
+}
+.icon-youtube{
+				background: black;
+				color: red;
+}
+.icon-telegram{
+				background: white;
+				color: #0088cc;
+				border-radius: 100%;
+				border-bottom: 12px;
+}
